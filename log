@@ -37,3 +37,28 @@ exercises.c:95:11: error: unused variable 'aux' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 faa94f9
+do., 23 de mar. de 2025 21:20:41: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:61:24: error: implicit declaration of function 'firts' [-Werror=implicit-function-declaration]
+       suma += *(int *) firts(L);
+                        ^~~~~
+exercises.c: In function 'eliminaElementos':
+exercises.c:77:10: error: implicit declaration of function 'firt' [-Werror=implicit-function-declaration]
+    while(firt(L) != NULL){
+          ^~~~
+exercises.c:77:18: error: comparison between pointer and integer [-Werror]
+    while(firt(L) != NULL){
+                  ^~
+exercises.c:80:10: error: expected '}' before 'else'
+          else{
+          ^~~~
+exercises.c: At top level:
+exercises.c:85:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+3081d80
