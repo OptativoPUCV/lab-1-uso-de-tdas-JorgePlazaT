@@ -81,3 +81,17 @@ exercises.c:85:1: error: expected identifier or '(' before '}' token
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ef09730
+do., 23 de mar. de 2025 21:22:04: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'eliminaElementos':
+exercises.c:80:10: error: expected '}' before 'else'
+          else{
+          ^~~~
+exercises.c: At top level:
+exercises.c:85:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+Compilation failed
+f957310
