@@ -95,3 +95,9 @@ exercises.c:85:1: error: expected identifier or '(' before '}' token
  ^
 Compilation failed
 f957310
+do., 23 de mar. de 2025 21:23:50: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  3|2
+total_score: 40/70
+c24646e

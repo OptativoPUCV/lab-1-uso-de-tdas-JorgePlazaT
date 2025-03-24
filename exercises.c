@@ -77,12 +77,12 @@ void eliminaElementos(List*L, int elem){
    while(first(L) != NULL){
       if(* (int *)first(L) == elem){
          popFront(L);
-         else{
-            popCurrent(L);
-         }
+      }else{
+         popCurrent(L);
+      }
+         
       }
    }
-}
 
 /*
 Ejercicio 4.
