@@ -19,7 +19,7 @@ void imprime_lista(List *L) {
       dato = (int*)next(L);
    }
    printf("]\n");
-
+ 
 }
 
 //Ojo que la pila se vacía al imprimir y se imprime en orden inverso
@@ -56,7 +56,12 @@ Crea una función que reciba una lista de enteros (int*) y
 retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
-   return 0;
+   int suma = 0;
+   while(first(L) != NULL){
+      suma += *(int *) firts(L);
+      popFront(L);
+   }
+   return suma;
 }
 
 /*
@@ -69,7 +74,14 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
-
+   while(firt(L) != NULL){
+      if(* (int *) first(L) == elem){
+         popFront(L);
+         else{
+            popCurrent(L);
+         }
+      }
+   }
 }
 
 /*
@@ -80,6 +92,9 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack* P1, Stack* P2) {
+   Stack *aux = create_stack();
+   
+   
 }
 
 /*
