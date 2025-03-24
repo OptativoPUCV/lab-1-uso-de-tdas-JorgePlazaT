@@ -101,3 +101,13 @@ do., 23 de mar. de 2025 21:23:50:
  tests:  3|2
 total_score: 40/70
 c24646e
+do., 23 de mar. de 2025 21:33:01: 
+ exercises.c | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'copia_pila':
+exercises.c:98:19: error: lvalue required as left operand of assignment
+    while(top(aux) =! NULL){
+                   ^
+Compilation failed
+ebfb5bf
